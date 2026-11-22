@@ -1,0 +1,5 @@
+baslik,TN,FP,FN,TP
+Lojistik Regresyon: CV katlar dışı (20631 satır),16416,1115,164,2936
+Lojistik Regresyon: resmî test (100 motor),70,5,3,22
+Random Forest: CV katlar dışı (20631 satır),16901,630,319,2781
+Random Forest: resmî test (100 motor),73,2,6,19

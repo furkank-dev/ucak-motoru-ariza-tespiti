@@ -1,0 +1,8 @@
+inceleme,model,satir,deger
+"OOF AUC, RUL 0-tümü",Lojistik Regresyon,20631,0.9886355414647969
+"OOF AUC, RUL 0-60",Lojistik Regresyon,6100,0.9423172043010754
+"OOF AUC, RUL 15-45",Lojistik Regresyon,3100,0.8371275
+"OOF AUC, RUL 0-tümü",Random Forest,20631,0.9879895337475919
+"OOF AUC, RUL 0-60",Random Forest,6100,0.939983172043011
+"OOF AUC, RUL 15-45",Random Forest,3100,0.83317625
+Karıştırılmış etiketle OOF AUC,Lojistik Regresyon,20631,0.5028254649367664

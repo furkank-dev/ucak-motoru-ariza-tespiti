@@ -5,6 +5,7 @@ Bir turbofan motorunun sensör ölçümlerinden "arızaya yakın" (kalan ömür 
 - Ne yapıldı, sonuçlar, dosya envanteri: `YAPILANLAR.md`
 - Sunum ve sözlü için anlatım: `ANLATIM.md`
 - Etiketlerin nasıl kurulduğu: `ETIKETLEME.md`
+- Sonraki adımlar ve nasıl yapılacakları: `PLANLAR.md`
 - Veri kaynağı, atıf, SHA-256: `data/README.md`
 
 ## Kurulum

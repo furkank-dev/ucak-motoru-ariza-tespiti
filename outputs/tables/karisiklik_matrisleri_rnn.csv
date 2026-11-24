@@ -1,0 +1,5 @@
+baslik,TN,FP,FN,TP
+RNN: CV katlar dışı,16504,1027,131,2969
+RNN: resmî test,72,3,3,22
+LSTM: CV katlar dışı,16911,620,111,2989
+LSTM: resmî test,73,2,0,25

@@ -1,0 +1,7 @@
+baslik,TN,FP,FN,TP
+XGBoost: CV katlar dışı (20631 satır),16910,621,374,2726
+XGBoost: resmî test (100 motor),73,2,6,19
+SVM (RBF): CV katlar dışı (20631 satır),16355,1176,137,2963
+SVM (RBF): resmî test (100 motor),69,6,3,22
+MLP: CV katlar dışı (20631 satır),16369,1162,152,2948
+MLP: resmî test (100 motor),72,3,3,22

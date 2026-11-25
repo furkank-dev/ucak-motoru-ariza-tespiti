@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Akıllı Arıza Tespit Sistemi</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+  <header class="ust">
+    <div class="ust-ic">
+      <div class="marka">
+        <b>Uçak Motorlarında Akıllı Arıza Tespit Sistemi</b>
+        <span>Sensör değerlerini girin, 7 model aynı anda karar versin</span>
+      </div>
+      <div class="baglanti" id="baglanti"><i></i><span>Bağlanıyor…</span></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="duzen">
+      <!-- Girdi -->
+      <section class="kart">
+        <div class="ust-etiket">1 · Girdi</div>
+        <h2>Sensör değerleri</h2>
+        <div class="araclar">
+          <label>Test motoru <select id="motor-sec"></select></label>
+          <button class="ikincil" id="rastgele">Rastgele</button>
+          <button class="ikincil" id="sifirla" title="Seçili motorun gerçek değerlerine dön">Sıfırla</button>
+        </div>
+        <p class="alt" id="motor-bilgi"></p>
+        <div class="sensorler" id="sensorler"></div>
+        <button class="calistir" id="calistir">Tüm modelleri çalıştır</button>
+        <p class="dipnot" id="calistir-not"></p>
+      </section>
+
+      <!-- Sonuç -->
+      <section class="kart">
+        <div class="ust-etiket">2 · Sonuç</div>
+        <h2 id="sonuc-baslik">Modellerin kararı</h2>
+        <div id="sonuc"><div class="bos">Soldan bir motor seçip <b>Tüm modelleri çalıştır</b>'a basın.</div></div>
+      </section>
+    </div>
+
+    <!-- Turlar -->
+    <section class="kart">
+      <div class="araclar">
+        <div>
+          <div class="ust-etiket">3 · Turlar</div>
+          <h2>Tüm turların karşılaştırması</h2>
+        </div>
+        <button class="ikincil" id="temizle" style="margin-left:auto">Tabloyu temizle</button>
+      </div>
+      <p class="alt">Her çalıştırma bir satır. "Doğru" sayısı yalnızca gerçek durumu bilinen turlarda (değeri değiştirilmemiş test motoru) sayılır.</p>
+      <div class="tablo-kap"><table id="turlar"></table></div>
+      <p class="dipnot" id="turlar-lejant"></p>
+    </section>
+  </main>
+
+  <footer>Karabük Üniversitesi · Bilgisayar Mühendisliği · Yapay Zekâ Dersi · NASA C-MAPSS FD001</footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/uygulama.js"></script>
+</body>
+</html>
